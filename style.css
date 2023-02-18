@@ -17,7 +17,7 @@ h1 {
     max-width: 1100px;
     margin: 0 auto;
     text-align: center;
-    padding: 25px 10px;
+    /* padding: 25px 10px; */
 }
 
 .row {
@@ -26,11 +26,15 @@ h1 {
     gap: 20px;
 }
 
-.headings-row-one {
-    color:#87629A
+.three-col h2 {
+    color:#87629A;
 }
 
-.columns-row-two {
+.three-col {
+    padding: 3em 0;
+}
+
+.two-col {
     background-color:#136C72;
     color:white;
 }
