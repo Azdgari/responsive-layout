@@ -20,25 +20,53 @@ h1 {
     /* padding: 25px 10px; */
 }
 
+.hero-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text{
+    text-align: left;
+    width: 70%;
+    padding-right: 30px;
+}
+
+.hero p {
+    margin-bottom: 3em;
+}
+
+.hero__image {
+    max-height: 300px;
+    max-width: 100%;
+    align-self: flex-start;
+}
+
+img {
+    max-width: 100%;
+}
+
+.para-title {
+    color: #136C72
+}
+
 .row {
     display: flex;
-
+    flex-direction: column;
     gap: 20px;
 }
 
-.three-col h2 {
-    color:#87629A;
+.body {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 60px;
 }
 
 .three-col {
     padding: 3em 0;
-}
-
-.two-col {
     background-color:#136C72;
     color:white;
+    flex-basis: 40%;
 }
-
 
 .col {
     width: 100%;
@@ -50,17 +78,7 @@ h1 {
     color: #FFF;
 }
 
-.hero-text{
-    text-align: left;
-}
 
-.hero-text {
-    width: 60%;
-}
-
-.hero p {
-    margin-bottom: 3em;
-}
 
 .btn {
     display: inline-block;
